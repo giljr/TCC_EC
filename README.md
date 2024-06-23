@@ -31,6 +31,7 @@ Requirements:
 
     ESP32 board and Arduino IDE configured with ESP32 support.
     ESP RainMaker library installed.
+    4 X [WiFi LoRa 32(V2)](https://heltec.org/project/wifi-lora-32-v3/) Produced by Heltec Automation  
 
 Steps to Implement:
 
