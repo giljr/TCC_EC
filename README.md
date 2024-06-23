@@ -51,9 +51,9 @@ Here's how the code can be structured:
 
 ## 🗺️ Roadmap  - This example demonstrates the ESP RainMaker integration with a standard Motion Sensor device using an ESP32.
 
-[Code # 00]() - **Callback and Buzzer Drive** - This code launches the drone automatically triggered by PIR#3. SIMULATION - Jun 23, 2024.
+[Code # 00](/00_DRONE_LAUNCH) - **Drone Drive** - This code is for the PIRs that activate the drone automatically. SIMULATION - Jun 23, 2024.
 
-[Code # 01]() - **No Buzzer Drive** - This code is for the PIRs that send information to mobile. SIMULATION - Jun 23, 2024.
+[Code # 01](/02_PIR_NO_BUZ1) - **No Buzzer Drive** - This code is for the PIRs that send information to mobile. SIMULATION - Jun 23, 2024.
 
-[Code # 02]() - **Drone Drive** - This code is for the PIRs that activate the drone automatically. SIMULATION - Jun 23, 2024.
+[Code # 02](/03_PIR_CB_BUZ2) - **Callback and Buzzer Drive** - This code launches the drone automatically triggered by PIR#3. SIMULATION - Jun 23, 2024.
     
