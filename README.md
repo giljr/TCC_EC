@@ -4,7 +4,7 @@
 
 This work aims to protect the code for my undergraduate thesis in Computer Engineering. The title is "DETECÇÃO DE INTRUSÕES RESIDENCIAIS USANDO DRONES E INTELIGÊNCIA ARTIFICIAL," which translates to "DETECTION OF RESIDENTIAL INTRUSIONS USING DRONES AND ARTIFICIAL INTELLIGENCE" in English.
 
-We use Espressif's Rainmaker platform to monitor crucial access points of the residence and deploy a drone for surveillance. This project was presented between July and September of 2024 at UNINTER University.
+We use Espressif's Rainmaker platform to monitor crucial access points of the residence and deploy a drone for surveillance. This project was presented between July and September of 2024 at UNINTER University. See [Demo Video](https://youtu.be/gKBFeZe--7g) for simulation.
 
 ## What is ESP RainMaker API
 
