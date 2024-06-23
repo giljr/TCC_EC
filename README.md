@@ -53,7 +53,8 @@ Here's how the code can be structured:
 
 [Code # 00](/00_DRONE_LAUNCH) - **Drone Drive** - This code is for the PIRs that activate the drone automatically. SIMULATION - Jun 23, 2024.
 
-[Code # 01](/02_PIR_CB_BUZ1) - **No Buzzer Drive** - This code is for the PIRs that send information to mobile. SIMULATION - Jun 23, 2024.
+[Code # 02](/02_PIR_CB_BUZ1) - **Callback and Buzzer Drive** - This code launches the drone automatically triggered by PIR#3. SIMULATION - Jun 23, 2024.
 
-[Code # 02](/03_PIR_NO_BUZ2) - **Callback and Buzzer Drive** - This code launches the drone automatically triggered by PIR#3. SIMULATION - Jun 23, 2024.
+[Code # 03](/03_PIR_NO_BUZ2) -  **No Buzzer Drive** - This code is for the PIRs that send information to mobile. SIMULATION - Jun 23, 2024.
+
     
