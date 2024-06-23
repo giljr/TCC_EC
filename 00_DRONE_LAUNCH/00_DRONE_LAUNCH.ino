@@ -6,7 +6,7 @@
    Objective: 
       
       This example demonstrates the ESP RainMaker integration with a standard Motion Sensor device using an ESP32.
-      This is the node that lanches the Drone.
+      This is the node that launches the drone.
 
                     
    Authors:     OLIVEIRA, Gilberto Jr.
