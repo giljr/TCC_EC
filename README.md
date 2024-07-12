@@ -52,10 +52,22 @@ Here's how the code can be structured:
 
 ## 🗺️ Roadmap  - This example demonstrates the ESP RainMaker integration with a standard Motion Sensor device using an ESP32.
 
-[Code # 00](/00_DRONE_LAUNCH) - **Drone Drive** - This code is for the PIRs that activate the drone automatically. SIMULATION - Jun 23, 2024.
+[Code # 00](/00_drone_launch.ino) - **Drone Drive** - This code is for the PIRs that activate the drone automatically. SIMULATION - Jun 23, 2024.
 
-[Code # 02](/02_PIR_CB_BUZ1) - **Callback and Buzzer Drive** - This code launches the drone automatically triggered by PIR#3. SIMULATION - Jun 23, 2024.
+[Code # 02](/02_PIR_NO_BUZ1.ino) - **Callback and Buzzer Drive** - This code launches the drone automatically triggered by PIR#3. SIMULATION - Jun 23, 2024.
 
-[Code # 03](/03_PIR_NO_BUZ2) -  **No Buzzer Drive** - This code is for the PIRs that send information to mobile. SIMULATION - Jun 23, 2024.
+[Code # 03](/03_PIR_CB_BUZ3.ino) -  **No Buzzer Drive** - This code is for the PIRs that send information to mobile. SIMULATION - Jun 23, 2024.
+
+
+[Code # 04](/01_setup_camera_send_email.py) -  **Camera Set up & send email - Raspi** - This code is for Raspberry Pi Zero w/ camera zero v1. SIMULATION - Jul 10, 2024.
+
+
+[Code # 05](/02_flask_web_server.py) -  **Web Server Setup - Raspi** - This code is for serve the web page to render in mobile. Use Bootstrap -  Jul 10, 2024.
+
+
+[Code # 06](/index.html) -  **Index page 'Home Security System' - Raspi** - This is the welcome page for 'Home Security System'- Use Bootstrap - Jul 10, 2024.
+
+
+[Code # 07](/secure_house.html) -  **Services page 'Home Security System' - Raspi** - This implements two services: Check for photos & Clean Resources - Use Bootstrap - Jul 10, 2024.
 
     
