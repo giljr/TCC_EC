@@ -1,0 +1,43 @@
+clear
+sudo raspi-config
+sudo apt autoremove
+cat /etc/os-release
+sudo nano /boot/config.txt
+sudo apt-get update
+sudo apt-get upgrade
+vcgencmd get_camera
+sudo reboot  
+raspistill
+mkdir camera
+cd camera
+cd Documents/
+mkdir python_programs
+cd python_programs/
+raspistill -o img.jpg
+raspistill -o fool.jpg -w 1280 -h 480
+pip3 install yagmail
+cd /lib/systemd/system
+sudo nano project_movement_detector.service
+sudo cp project_movement_detector.service project_web_app.service
+nano project_web_app.service 
+sudo nano project_web_app.service 
+sudo systemctl start project_movement_detector.service 
+sudo systemctl start project_web_app.service 
+sudo systemctl enable project_movement_detector.service 
+sudo systemctl enable project_web_app.service 
+sudo systemctl list-unit-files | grep project
+sudo journalctl -u project_movement_detector.service
+sudo journalctl -u project_movement_detector.service -f
+sudo journalctl -u project_web_app.service -n 50
+sudo reboot
+cd Documents/python_programs/
+cd templates/
+nano index.html 
+nano secure_house.html    
+sudo reboot
+cd Documents/python_programs/
+hostname -I
+ps aux | grep python3
+cd /lib/systemd/system
+sudo systemctl list-unit-files | grep project
+sudo kill 543

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Home Security System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #343a40; /* Dark background */
+            color: #f8f9fa; /* Light text color */
+            text-align: center;
+            padding: 20px;
+        }
+        .security-icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: #ffc107; /* Gold color */
+        }
+        .btn-custom {
+            width: 100%;
+            margin: 10px 0;
+            background-color: #495057; /* Darker button background */
+            border: none;
+            color: #f8f9fa; /* Light text color */
+            border-radius: 10px;
+        }
+        .btn-custom:hover {
+            background-color: #6c757d; /* Slightly lighter on hover */
+        }
+        .alert {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="security-icon">
+            <i class="fas fa-shield-alt"></i>
+        </div>
+        <h1 class="my-4">Welcome to Home Security System</h1>
+        
+        <!-- Flash messages -->
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-success">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+        
+        <div class="card mx-auto" style="max-width: 400px;">
+            <div class="card-body">
+                <button class="btn btn-custom" onclick="location.href='/check-movement'">Check for Photos</button>
+                <button class="btn btn-custom" onclick="location.href='/clean-camera-directory'">Clean Resources</button>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome for security icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
